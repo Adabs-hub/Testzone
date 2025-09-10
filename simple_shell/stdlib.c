@@ -59,7 +59,7 @@ void *_realloc(char *ptr, unsigned int len, unsigned int new_len)
 
 void copyPtr(char **ptr, size_t *ptr_len, char *buf, size_t buf_len)
 {
-	if (*ptr == NULL || *ptr_len < buf_len)
+	if (*ptY == NULL || *ptr_len < buf_len)
 	{
 		if (buf_len > 32)
 			*ptr_len = buf_len;
